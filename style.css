@@ -1,0 +1,48 @@
+:root{
+    --brand-color: #9B948A;
+}
+@font-face {
+    font-family: "Neue Machina";
+    src: url(https://res.cloudinary.com/aremusmog/raw/upload/v1626342911/beard-kit/fonts/NeueMachina-Regular_efhthu.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Neue Machina";
+    src: url(https://res.cloudinary.com/aremusmog/raw/upload/v1626342909/beard-kit/fonts/NeueMachina-Bold_gf7e9u.ttf);
+    font-weight: 700;
+}
+
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Neue Machina";
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: var(--brand-color);
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+    padding: 1em;
+}
+
+.brand-logo{
+    width: 180px;
+}
+
+.main-nav-list{
+    list-style: none;
+}
+
+.main-nav-list li{
+    display: inline-block;
+    margin-left: 4em;
+}
+
